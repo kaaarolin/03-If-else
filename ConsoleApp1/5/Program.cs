@@ -10,11 +10,11 @@ int numberThree = Convert.ToInt32(Console.ReadLine());
 
 if (numberOne >= numberTwo && numberOne >= numberThree)
 {
-    Console.WriteLine(numberOne + "is the biggest number");
+    Console.WriteLine(numberOne + " is the biggest number");
 }
 else if (numberTwo >= numberOne && numberTwo >= numberThree)
 {
-    Console.WriteLine(numberTwo + "is the biggest number");
+    Console.WriteLine(numberTwo + " is the biggest number");
 }
 else 
 {

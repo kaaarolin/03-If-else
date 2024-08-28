@@ -8,7 +8,11 @@ if ( inputName < 13 )
 {
     Console.WriteLine("You are a child");
 }
-else
+else if (inputName >= 13 && inputName <= 19)
+{
+    Console.WriteLine("You are a teenager");
+}
+else 
 {
     Console.WriteLine("You are an adult");
 }
